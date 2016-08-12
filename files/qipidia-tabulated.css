@@ -1,0 +1,308 @@
+.overview-heading-query{
+	margin-top:30px;
+}
+
+.pair{
+	/*margin-top:60px;*/
+	width: 600px;
+	padding-left: 100px;
+	padding-top: 50px;
+}
+
+.pair > p{
+	font-size: 12pt;
+}
+
+.pair >h3{
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+.overview-heading-query > h1 {
+display:inline;
+}
+
+*.htmlscore{
+display:none;
+}
+
+.overview-heading-query > p {
+font-size: 18pt;
+display:inline;
+}
+
+*.entity-snippet-li
+{
+display:inline-table;
+width:300px;
+text-align: left;
+background-color: #efe;
+border-style: solid;
+border-width: thin;
+border-color: #ded;
+border-radius: 20px;
+padding: 5px;
+margin: 2px;
+}
+
+*.entity-snippet-li-text
+{
+text-align:left;
+/*border-style: solid;*/
+margin: 2px;
+display:inline-table;
+}
+
+*.entity-snippet-neighborlink
+{
+/* background: transparent url(arrow-32-l.png) center left no-repeat;*/
+background: transparent url(http://ciir.cs.umass.edu/~dietz/queripidia/arrow-32-l.png) center left no-repeat;
+padding-left: 20px;
+}
+
+*.overview-entity-li
+{
+/* background: transparent url(arrow-32-l.png) center left no-repeat;*/
+/*background: transparent url(http://ciir.cs.umass.edu/~dietz/queripidia/arrow-32-l.png) center left no-repeat;*/
+padding-left: 20px;
+list-style: none;
+}
+
+*.entity-wikitext-excerpt
+{
+text-align: left;
+background-color: #eef;
+border-style: solid;
+border-width: thin;
+border-color: #dde;
+border-radius: 20px;
+padding: 5px;
+margin: 2px;
+}
+*.document-text
+{
+text-align: left;
+background-color: #efe;
+border-style: solid;
+border-width: thin;
+border-color: #ded;
+border-radius: 20px;
+padding: 5px;
+margin: 2px;
+}
+
+
+
+*.overview-entities
+{
+display:inline-table;
+width:300px;
+text-align: left;
+background-color: #eef;
+border-style: solid;
+border-width: thin;
+border-color: #dde;
+border-radius: 20px;
+padding: 5px;
+margin: 2px;
+margin-top:20px;
+}
+
+
+
+*.overview-types
+{
+display:none;
+width:300px;
+text-align: left;
+background-color: rgba(247, 238, 255, 1);
+border-style: solid;
+border-width: thin;
+border-color: rgba(237, 228, 245, 1);
+border-radius: 20px;
+padding: 5px;
+margin: 2px;
+}
+
+*.overview-documents
+{
+/*display:inline-table;*/
+display:none;
+width:300px;
+text-align: left;
+background-color: #efe;
+border-style: solid;
+border-width: thin;
+border-color: #ded;
+border-radius: 20px;
+padding: 5px;
+margin: 2px;
+}
+
+*.overview-documents-show
+{
+display:none;
+width:300px;
+text-align: left;
+background-color: #efe;
+border-style: solid;
+border-width: thin;
+border-color: #ded;
+border-radius: 20px;
+padding: 5px;
+margin: 2px;
+}
+*.overview-snippets
+{
+/*display:inline-table;*/
+display:none;
+width:300px;
+text-align: left;
+background-color: #efe;
+border-style: solid;
+border-width: thin;
+border-color: #ded;
+border-radius: 20px;
+padding: 5px;
+margin: 2px;
+}
+
+*.overview-snippets-show
+{
+display:none;*/
+width:300px;
+text-align: left;
+background-color: #efe;
+border-style: solid;
+border-width: thin;
+border-color: #ded;
+border-radius: 20px;
+padding: 5px;
+margin: 2px;
+}
+
+
+
+.import li{
+display:inline-table;
+width:300px;
+text-align: left;
+background-color: #efe;
+border-style: solid;
+border-width: thin;
+border-color: #ded;
+border-radius: 5px;
+padding: 5px;
+margin: 2px;
+}
+
+
+.entity-entityrepresentation {
+display: none;
+}
+
+.overview-wide {
+width:800px;
+}
+
+
+.tabulated-table {
+display:table;
+}
+.tabulated-row {
+display:table-row; 
+}
+.tabulated-cell{
+display:table-cell;
+}
+
+.more-explanations{
+font-size:smaller;
+float:right;
+width:300px;
+}
+
+.snippet-in-document {
+font-size:smaller;
+float:right;
+
+
+@media print {
+    *,:after,:before {
+        color: #000!important;
+        text-shadow: none!important;
+        background: 0 0!important;
+        -webkit-box-shadow: none!important;
+        box-shadow: none!important
+    }
+
+    a,a:visited {
+        text-decoration: underline
+    }
+
+    a[href]:after {
+        content: ""!important
+    }
+
+    abbr[title]:after {
+        content: ""!important
+    }
+
+    a[href^="javascript:"]:after,a[href^="#"]:after {
+        content: ""
+    }
+
+    blockquote,pre {
+        border: 1px solid #999;
+        page-break-inside: avoid
+    }
+
+    thead {
+        display: table-header-group
+    }
+
+    img,tr {
+        page-break-inside: avoid
+    }
+
+    img {
+        max-width: 100%!important
+    }
+
+    h2,h3,p {
+        orphans: 3;
+        widows: 3
+    }
+
+    h2,h3 {
+        page-break-after: avoid
+    }
+
+	
+	
+    .navbar {
+        display: none
+    }
+
+    .btn>.caret,.dropup>.btn>.caret {
+        border-top-color: #000!important
+    }
+
+    .label {
+        border: 1px solid #000
+    }
+
+    .table {
+        border-collapse: collapse!important
+    }
+
+    .table td,.table th {
+        background-color: #fff!important
+    }
+
+    .table-bordered td,.table-bordered th {
+        border: 1px solid #ddd!important
+    }
+}
+
+}
